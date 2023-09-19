@@ -1,0 +1,158 @@
+/* Borrar Margenes Dentro De MI Archivo para que el explorador no de su automatico */
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: rgb(137, 138, 138);
+    opacity: 0.8;
+    display: flex;
+    position:absolute;
+    justify-content: center;
+    z-index: 100000;
+    
+}
+
+
+/*logo*/
+header h1.titulo {
+   
+    margin: 10px;
+    padding: 20px;
+    border-radius: 100%;
+    line-height: 100px;
+    background-image: url(Imagen/Coffe2.jpeg);
+    background-size:50px; /* Cambio Tamaño Imagen */
+    image-rendering:optimizeQuality;
+       
+}
+
+/*Volver por sector mis listas*/
+nav ul li {
+    clear: both;
+    display: inline-block; /*Coloca mi codigo en linea*/
+    margin: 10px;
+    line-height: 80px;
+    color: black; /* Cambia el color de texto por defecto */
+    transition: color;
+}
+
+/* Estilo normal para los elementos de la lista con links */
+nav ul li a {
+    color: rgb(233, 227, 227); /* Cambia el color de texto por defecto */
+    transition: color 0.3s; /* Agrega una transición suave para el cambio de color */
+    text-decoration: none; /*Modifica las lineas de mi codigo en los links*/
+}
+
+/* Cambia el color cuando el mouse pasa sobre el elemento */
+ul li a:hover {
+    color: rgb(54, 147, 209); /* Cambia el color de texto al pasar el mouse */
+}
+
+header nav {
+    clear: both;
+    float: right;
+}
+
+.nav-linK {
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 1;
+}
+
+body {
+    clear: both;
+
+
+    background-image: url(Imagen/descarga.jpeg);
+    width: auto;
+    height: auto;
+    margin: 20px;
+    padding: 20PX;
+    border: 50px;
+    font-size: 20px;
+}
+
+.main {
+    background-color: bisque;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.titulo2 {
+    color: rgb(77, 53, 53);
+}
+
+#division1, #division2 {
+    color: rgb(77, 53, 53);
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    width: 35%; /* Ajusta el ancho de cada división */
+    vertical-align: top; /* Alinea las divisiones en la parte superior */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el ancho y alto */
+}
+
+#division1 {
+    background-color: rgba(255, 0, 0, 0.3); /* Fondo para la primera división */
+}
+
+#division2 {
+    background-color: rgba(0, 0, 255, 0.3); /* Fondo para la segunda división */
+}
+
+.p1 {
+    color: rgb(77, 53, 53);
+    font-size: 20px;
+    border: 8px solid rgb(143, 155, 155);
+    background-color: rgb(241, 244, 247);
+    opacity: 0.81;
+}
+
+/* Estilo para el footer */
+footer {
+    clear: both; /*Limpieza Y Genera que las alturas se pongan en cero*/
+    background-image: url(Imagen/img.jpeg);
+    margin: auto;
+    border: 0;
+    padding: 0;
+    opacity: 0.8;
+}
+
+/* Estilo para el footer y h3 con clase .p3 dentro de footer */
+.p3
+{
+    color: aqua;
+}
+
+.wp {
+    float: left; /* Hace que el enlace flote a la izquierda */
+    margin: 10px;
+    padding: 10px 20px; /* Añade relleno para el enlace */
+    background-image: url('Imagen/descarga.webp'); /* Ruta de la imagen que deseas usar */
+    background-size: 50%; /* Ajusta el tamaño de la imagen para cubrir el enlace */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    color: transparent; /* Hace que el texto del enlace sea transparente */
+    text-align: center; /* Centra el contenido del enlace */
+    text-decoration: none; /* Elimina el subrayado predeterminado del enlace */
+    font-size: 16px; /* Tamaño de fuente para el texto del enlace */
+    font-weight: bold; /* Establece el peso de la fuente para el texto del enlace */
+}
+
+.lk {
+    display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+    margin: 10px;
+    padding: 10px 20px; /* Añade relleno para el enlace */
+    background-image: url('Imagen/LinkedIn.png'); /* Ruta de la imagen que deseas usar */
+    background-size: 50%; /* Ajusta el tamaño de la imagen para cubrir el enlace */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    color: transparent; /* Hace que el texto del enlace sea transparente */
+    text-align: center; /* Centra el contenido del enlace */
+    text-decoration: none; /* Elimina el subrayado predeterminado del enlace */
+    font-size: 16px; /* Tamaño de fuente para el texto del enlace */
+    font-weight: bold; /* Establece el peso de la fuente para el texto del enlace */
+}

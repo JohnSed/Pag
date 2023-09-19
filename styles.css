@@ -1,0 +1,137 @@
+/* ------------- CSS General ------------- */
+*{margin:0 ; padding: 0;box-sizing: border-box;}
+body
+{
+  color:#5d6063;
+  background-color: antiquewhite;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+/* ------------- Encabezado Contacto ------------- */
+footer
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-header /*Configuracion Del La Clase en footer form header*/
+{
+  text-align: center;
+  background-color: aliceblue;
+  border : 3px solid #6d7074;
+  border-radius: 6px;
+  width: 80%;
+  margin: 10px auto; /*auto centraliza la info*/
+  padding: 60px;/*ancho de la inf0*/
+
+}
+.form-header h1 /*Configurar el titulo*/
+{
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+/* ------------- Formulario ------------- */
+.formulario
+{
+  background-color: bisque;
+  border: 2px solid #d6d9dc;
+  border-radius: 5px;
+  width: 80%;
+  padding: 50px;
+  margin: 30px 0 0px 0;
+}
+.form-row/*modificacion el div clase form-row*/
+{
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.form-row input[type="text"],.form-row input[type="email"] {
+  background-color: #bdbdbd;
+  border: 0;
+  border-radius: 6px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+}
+.form-row label {
+  margin-bottom: 3px;
+  text-align: initial;
+}
+.form-row textarea
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 14px;
+  background-color: #6d7074;
+  border: 0;
+  border-radius: 10px;
+  min-height: 200px;
+  margin-bottom: 10px;
+  padding: 10px;
+  resize: none;/* Deshabilita la capacidad de redimensionar */
+  width: 100%;
+}
+
+.form-row button {
+  font-size: 16px;
+  font-weight: bold;
+
+
+  color: #ffffff;
+  background-color: #5995da;
+
+
+  border: none;
+  border-radius: 3px;
+
+
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+
+.form-row button:hover {
+  background-color: #76aeed;
+}
+
+
+.form-row button:active {
+  background-color: #407fc7;
+}
+/* ------------- Solo Para Pantallas de más de 700px Dsipositivos Moviles------------- */
+@media only screen and (min-width= 700px)
+{
+   .form-header
+  {
+    padding: 50px;
+  }
+
+  .form-row
+  {
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  }
+  .form-row input[type="text"] .form-row input[type="email"]
+  {
+  width: 250px;
+  height: initial;
+  }
+  .form-row label
+  {
+  text-align: right;
+  width: 100px;
+  margin-top: 7px;
+  padding-right: 20px;
+  }
+  .form-row textarea {
+    width: 250px;
+  }
+  .form-row button 
+  {
+    margin-left: 120px;
+    
+  }
+}

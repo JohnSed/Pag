@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+  <footer class="form-header">
+    <h1>Contacto</h1>
+    <p><em>Esperamos Tu Consulta</em></p>
+    <form action="" method="get" class = "formulario" id="form">
+      <div class="form-row">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" name="nombre" type="text" required/>
+        <label for="email">Email</label>
+        <input  id="email"name="email" type="email" placeholder="usuario@dominio" required/>
+        <label for="mensaje ">Mensaje</label>
+        <textarea id="mensaje" name ="mensaje"></textarea>
+        <button type="submit" id="submit">Enviar</button>
+      </div>
+      <p class="alertas" id="alertas"></p>
+    </form>
+<script src="script.js"></script>
+  </footer>
+  
+</body>
+</html>

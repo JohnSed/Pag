@@ -1,0 +1,187 @@
+/* Borrar Margenes Dentro De MI Archivo para que el explorador no de su automatico */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+position: relative;
+}
+.cabezote
+
+{
+    clear: both;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: left;/*centrar mi contenido*/
+    opacity: 1;
+    z-index: 1;
+    position: fixed;
+}
+.logo
+{
+    
+    background-image: url(Imagen/Coffe2.jpeg);
+    line-height: 60px;/*tamaño*/
+    border-radius: 50%; /*Radio De La Info*/
+    background-size:150px; /* Cambio Tamaño Imagen */
+    image-rendering:50%;
+    padding: 50px;
+    opacity: 1;
+    margin: 10px;
+    padding: 20px;  
+    
+}
+.navbar .nav-links ul li {
+    display: block;
+    margin: 0px;
+     
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.cabezote .navbar
+{
+    clear: both;
+    float: right;
+    align-self:flex-end;
+    overflow: hidden;
+    transition: height 0.3s;
+    height: 0;
+     
+}
+.cabezote:hover .navbar
+{
+    height: 100px; /* Mostramos el menú al pasar el ratón sobre el encabezado */
+}
+.navbar .nav-links li
+{
+    clear: both;
+    display: inline-block; /*Coloca mi codigo en linea*/
+    margin: 10px;
+    line-height: 20px;
+    color: black; /* Cambia el color de texto por defecto */
+    transition: color;
+     align-self: center;
+}
+.navbar .nav-links a
+{
+    color: rgb(233, 227, 227); /* Cambia el color de texto por defecto */
+    transition: color 0.3s; /* Agrega una transición suave para el cambio de color */
+    text-decoration: none; /*Modifica las lineas de mi codigo en los links*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+ul li a:hover {
+    color: rgb(54, 147, 209); /* Cambia el color de texto al pasar el mouse */
+}
+
+body {
+    clear: both;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    background-image: url(Imagen/descarga.jpeg);
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 60PX;
+    border: 50px;
+    font-size: 20px;
+    
+    
+}
+
+
+.titulo2 {
+    color: rgb(192, 72, 72);
+}
+
+#division1, #division2 {
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    width: 35%; /* Ajusta el ancho de cada división */
+    vertical-align: top; /* Alinea las divisiones en la parte superior */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el ancho y alto */
+    align-items: center;
+}
+#division1 {
+    background-color: rgba(255, 0, 0, 0.3); /* Fondo para la primera división */
+}
+
+#division2 {
+    background-color: rgba(0, 0, 255, 0.3); /* Fondo para la segunda división */
+}
+.t2
+{
+    color: rgb(77, 53, 53);
+    font-size: 30px;
+    }
+.p2
+{
+    color: rgb(248, 239, 239);
+    font-size: 20px;
+    opacity: 1;
+}
+
+.p1 {
+    color: rgb(77, 53, 53);
+    font-size: 20px;
+    border: 8px solid rgb(143, 155, 155);
+    background-color: rgb(241, 244, 247);
+    opacity: 0.81;
+}
+
+/* Estilo para el footer */
+footer {
+    clear: both; /*Limpieza Y Genera que las alturas se pongan en cero*/
+    background-image: url(Imagen/img.jpeg);
+    margin: auto;
+    border: 0;
+    padding: 0;
+    opacity: 0.8;
+}
+
+/* Estilo para el footer y h3 con clase .p3 dentro de footer */
+.p3 {
+    color: rgb(2, 2, 2);
+    font-size: 30px;
+    opacity: 1;
+}
+
+.wp {
+    float: left; /* Hace que el enlace flote a la izquierda */
+    margin: 10px;
+    padding: 10px 20px; /* Añade relleno para el enlace */
+    background-image: url('Imagen/descarga.webp'); /* Ruta de la imagen que deseas usar */
+    background-size: 50%; /* Ajusta el tamaño de la imagen para cubrir el enlace */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    color: transparent; /* Hace que el texto del enlace sea transparente */
+    text-align: center; /* Centra el contenido del enlace */
+    text-decoration: none; /* Elimina el subrayado predeterminado del enlace */
+    font-size: 16px; /* Tamaño de fuente para el texto del enlace */
+    font-weight: bold; /* Establece el peso de la fuente para el texto del enlace */
+}
+
+.lk {
+    display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+    margin: 10px;
+    padding: 10px 20px; /* Añade relleno para el enlace */
+    background-image: url('Imagen/LinkedIn.png'); /* Ruta de la imagen que deseas usar */
+    background-size: 50%; /* Ajusta el tamaño de la imagen para cubrir el enlace */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    color: transparent; /* Hace que el texto del enlace sea transparente */
+    text-align: center; /* Centra el contenido del enlace */
+    text-decoration: none; /* Elimina el subrayado predeterminado del enlace */
+    font-size: 16px; /* Tamaño de fuente para el texto del enlace */
+    font-weight: bold; /* Establece el peso de la fuente para el texto del enlace */
+}
