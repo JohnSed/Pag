@@ -148,6 +148,7 @@ body {
     border: 8px solid rgb(143, 155, 155);
     background-color: rgb(241, 244, 247);
     opacity: 0.81;
+    text-align: justify;
 }
 
 /* Estilo para el footer */
@@ -221,11 +222,12 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40vh; /* Ajusta la altura al 100% de la ventana */
-    margin: 0; /* Elimina el margen predeterminado del body */
+    padding: 10px;
+    padding-bottom: 10px;
 }
 .imagen
 {
+    clear: both;
     width: 150px;
     height: 150px;
     background-image: url('Imagen/Yo.jpg');
@@ -234,7 +236,6 @@ footer {
     background-position: center center; /* Centra la imagen en el contenedor */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     image-rendering: optimizeQuality;
-    text-align: center;
-    
+      
 }
        
