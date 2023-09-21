@@ -90,7 +90,7 @@ body {
     top: 0;
     clear: both;
     position: relative;
-    top: 40px;   /*Ubicar elemento quien soy arriba o abajo*/
+    top: 20px;   /*Ubicar elemento quien soy arriba o abajo*/
     left: 0px;
     background-image: url(Imagen/descarga.jpeg);
     width: 100%;
@@ -98,6 +98,7 @@ body {
     border: 0px;
     font-size: 20px;
     margin-top: 10px;
+   
     
 }
 
@@ -214,7 +215,26 @@ footer {
     font-weight: bold;
     /* Establece el peso de la fuente para el texto del enlace */
 }
-.greeting
+
+.Image
 {
-    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh; /* Ajusta la altura al 100% de la ventana */
+    margin: 0; /* Elimina el margen predeterminado del body */
 }
+.imagen
+{
+    width: 150px;
+    height: 150px;
+    background-image: url('Imagen/Yo.jpg');
+    background-size: cover;
+    border-radius: 60%;
+    background-position: center center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    image-rendering: optimizeQuality;
+    text-align: center;
+    
+}
+       

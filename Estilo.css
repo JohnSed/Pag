@@ -208,3 +208,27 @@ footer {
     font-weight: bold;
     /* Establece el peso de la fuente para el texto del enlace */
 }
+.imagen
+{
+    display: inline-block;
+    /* Hace que el enlace se comporte como un bloque en línea */
+    margin: 10px;
+    padding: 10px 20px;
+    /* Añade relleno para el enlace */
+    background-image: url('Imagen/LinkedIn.png');
+    /* Ruta de la imagen que deseas usar */
+    background-size: 50%;
+    /* Ajusta el tamaño de la imagen para cubrir el enlace */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    color: transparent;
+    /* Hace que el texto del enlace sea transparente */
+    text-align: center;
+    /* Centra el contenido del enlace */
+    text-decoration: none;
+    /* Elimina el subrayado predeterminado del enlace */
+    font-size: 16px;
+    /* Tamaño de fuente para el texto del enlace */
+    font-weight: bold;
+    /* Establece el peso de la fuente para el texto del enlace */
+}
