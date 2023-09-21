@@ -221,7 +221,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 45vh; /* Ajusta la altura al 100% de la ventana */
+    height: 40vh; /* Ajusta la altura al 100% de la ventana */
     margin: 0; /* Elimina el margen predeterminado del body */
 }
 .imagen

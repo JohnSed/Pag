@@ -213,7 +213,7 @@ footer {
     display: inline-block;
     /* Hace que el enlace se comporte como un bloque en línea */
     margin: 10px;
-    padding: 10px 20px;
+    padding: 10px 10px;
     /* Añade relleno para el enlace */
     background-image: url('Imagen/LinkedIn.png');
     /* Ruta de la imagen que deseas usar */
