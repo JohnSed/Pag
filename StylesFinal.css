@@ -10,11 +10,12 @@
     background-color: rgba(109, 114, 112, 0.842);
     align-content: center;
     position: fixed;
-    padding: 4px;
+    padding: 0;
     z-index: 1;
     width: 100%;
     top: 0;
-}   
+}
+
 .logo {
     background-image: url(Imagen/Coffe2.jpeg);
     /*background-image: url(Imagen/Coffe2.jpeg);*/
@@ -25,13 +26,19 @@
     /* Cambio Tamaño Imagen */
     image-rendering: 50%;
     opacity: 1;
-    margin: 10px;
+    margin-top: 5px;
+    /*Aplica un margen en la parte superior.*/
+    margin-bottom: 0px;
+    /*Aplica un margen en la parte inferior.*/
+    margin-right: 0px;
+    /*Aplica un margen en el lado derecho*/
+    margin-left: 10px;
+    /*Aplica un margen en el lado izquierdo*/
     padding: 20px;
 
 }
 
-header nav
-{
+header nav {
     clear: both;
     float: right;
 }
@@ -39,29 +46,28 @@ header nav
 .navbar .nav-links ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin-right: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
-
-/*ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 5px;
-    margin-block-end: 2px;
-    margin-inline-start: 0px;
-    margin-inline-end: 5px;
-    padding-inline-start: 0px;
-}*/
 
 nav ul li {
     clear: both;
     display: inline-block;
     /*Coloca mi codigo en linea*/
     margin-left: 10px;
-    line-height:40px;
+    /*Aplica un margen en el lado izquierdo*/
+    margin-top: 0px;
+    /*Aplica un margen en la parte superior.*/
+    margin-bottom: 0px;
+    /*Aplica un margen en la parte inferior.*/
+    margin-right: 5px;
+    /*Aplica un margen en el lado derecho*/
+    line-height: 50px;
     color: rgb(221, 209, 209);
     /* Cambia el color de texto por defecto */
     transition: color;
-    align-self:flex-start;
+    align-self: flex-start;
 }
 
 .navbar .nav-links a {
@@ -76,7 +82,7 @@ nav ul li {
 }
 
 ul li a:hover {
-    color: rgb(209, 90, 54)!important;
+    color: rgb(209, 90, 54) !important;
     /* Cambia el color de texto al pasar el mouse */
 }
 
@@ -84,20 +90,20 @@ body {
     top: 0;
     clear: both;
     position: relative;
-    top: 60px;
+    top: 40px;   /*Ubicar elemento quien soy arriba o abajo*/
     left: 0px;
     background-image: url(Imagen/descarga.jpeg);
     width: 100%;
     height: 100%;
     border: 0px;
     font-size: 20px;
-    margin-top: 30px;
-
-
+    margin-top: 10px;
+    
 }
 
 .titulo2 {
     color: rgb(192, 72, 72);
+    text-align: center; /* Para centrar el texto */
 }
 
 #division1,
@@ -207,4 +213,8 @@ footer {
     /* Tamaño de fuente para el texto del enlace */
     font-weight: bold;
     /* Establece el peso de la fuente para el texto del enlace */
+}
+.greeting
+{
+    background-color: aqua;
 }
