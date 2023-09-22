@@ -7,7 +7,7 @@
 
 .cabezote {
     clear: both;
-    background-color: rgba(109, 114, 112, 0.842);
+    background-color: rgba(178, 185, 182, 0.842);
     align-content: center;
     position: fixed;
     padding: 0;
@@ -17,16 +17,18 @@
 }
 
 .logo {
-    background-image: url(Imagen/Coffe2.jpeg);
+    background-image: url(Imagen/Final\ Logo.png);
     /*background-image: url(Imagen/Coffe2.jpeg);*/
+    width: 100px;/*ancho*/
+    height: 10px;/*largo*/
     display: inline-block;
-    border-radius: 50%;
+    border-radius: 0%;
     /*Radio De La Info*/
-    background-size: 50px;
+    background-size: 150px;
     /* Cambio Tamaño Imagen */
-    image-rendering: 50%;
+    image-rendering: 0%;
     opacity: 1;
-    margin-top: 5px;
+    margin-top: 8px;
     /*Aplica un margen en la parte superior.*/
     margin-bottom: 0px;
     /*Aplica un margen en la parte inferior.*/
@@ -35,6 +37,9 @@
     margin-left: 10px;
     /*Aplica un margen en el lado izquierdo*/
     padding: 20px;
+    background-position: center center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    image-rendering: optimizeQuality;
 
 }
 
@@ -64,14 +69,14 @@ nav ul li {
     margin-right: 5px;
     /*Aplica un margen en el lado derecho*/
     line-height: 50px;
-    color: rgb(221, 209, 209);
+    color: rgb(88, 83, 83);
     /* Cambia el color de texto por defecto */
     transition: color;
     align-self: flex-start;
 }
 
 .navbar .nav-links a {
-    color: rgb(233, 227, 227);
+    color: rgb(92, 88, 88);
     /* Cambia el color de texto por defecto */
     transition: color 0.3s;
     /* Agrega una transición suave para el cambio de color */
@@ -90,7 +95,7 @@ body {
     top: 0;
     clear: both;
     position: relative;
-    top: 20px;   /*Ubicar elemento quien soy arriba o abajo*/
+    top: 40px;   /*Ubicar elemento quien soy arriba o abajo*/
     left: 0px;
     background-image: url(Imagen/descarga.jpeg);
     width: 100%;
@@ -101,12 +106,7 @@ body {
    
     
 }
-
-.titulo2 {
-    color: rgb(192, 72, 72);
-    text-align: center; /* Para centrar el texto */
-}
-
+ 
 #division1,
 #division2 {
     margin: 10px;
@@ -238,4 +238,17 @@ footer {
     image-rendering: optimizeQuality;
       
 }
-       
+
+
+.img {
+    clear: both;
+    width: 150px;
+    height: 40px;
+    background-image: url('Imagen/lOGO2.png');
+    background-size: 100%;
+    border-radius: 100%;
+    background-position: center center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    image-rendering: optimizeQuality;
+}
+    
