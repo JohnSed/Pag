@@ -1,4 +1,10 @@
 /* Borrar Margenes Dentro De MI Archivo para que el explorador no de su automatico */
+@font-face {
+    font-family: 'STNizhegorodsky';
+    src: url('Imagen/ST-Nizhegorodsky.ttf') format('truetype');
+    /* Agrega aquí las rutas para otros formatos si los tienes (e.g., woff, woff2) */
+  }
+  
 * {
     margin: 0;
     padding: 0;
@@ -97,7 +103,7 @@ body {
     position: relative;
     top: 40px;   /*Ubicar elemento quien soy arriba o abajo*/
     left: 0px;
-    background-image: url(Imagen/descarga.jpeg);
+    background-color: rgba(218, 226, 224, 0.795);
     width: 100%;
     height: 100%;
     border: 0px;
@@ -241,14 +247,13 @@ footer {
 
 
 .img {
+    display:inline-block;
     clear: both;
-    width: 150px;
-    height: 40px;
-    background-image: url('Imagen/lOGO2.png');
-    background-size: 100%;
-    border-radius: 100%;
+    
     background-position: center center; /* Centra la imagen en el contenedor */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     image-rendering: optimizeQuality;
-}
+    font-size: 50px; 
+    font-family: 'STNizhegorodsky';
+    }
     
