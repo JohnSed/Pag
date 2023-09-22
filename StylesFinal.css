@@ -19,7 +19,7 @@
 .logo {
     background-image: url(Imagen/Final\ Logo.png);
     /*background-image: url(Imagen/Coffe2.jpeg);*/
-    width: 100px;/*ancho*/
+    width: 90px;/*ancho*/
     height: 10px;/*largo*/
     display: inline-block;
     border-radius: 0%;
@@ -60,7 +60,7 @@ nav ul li {
     clear: both;
     display: inline-block;
     /*Coloca mi codigo en linea*/
-    margin-left: 10px;
+    margin-left: 5px;
     /*Aplica un margen en el lado izquierdo*/
     margin-top: 0px;
     /*Aplica un margen en la parte superior.*/
