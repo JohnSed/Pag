@@ -12,7 +12,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/*Emcabezado*/
 .cabezote {
     clear: both;
     background-color: rgba(178, 185, 182, 0.842);
@@ -98,7 +98,8 @@ ul li a:hover {
     color: rgb(209, 90, 54) !important;
     /* Cambia el color de texto al pasar el mouse */
 }
-
+/*Fin*/
+/* Cuerpo*/
 body {
     top: 0;
     clear: both;
@@ -114,7 +115,35 @@ body {
    
     
 }
- 
+.Name {
+    display:inline-block;
+    clear: both;
+    font-size: 40px; 
+    font-family: 'STNizhegorodsky';
+    }
+.Eslog{
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    padding-bottom: 5px;
+}
+.Eslogan{
+    top: 0;
+    position: initial;
+    clear: both;
+    font-size: 15px; 
+    font-family: 'BeatrixAntiquia';
+    margin-left: 140px;
+    /*Aplica un margen en el lado izquierdo*/
+    margin-top: 0px;
+    /*Aplica un margen en la parte superior.*/
+    margin-bottom: 2px;
+    /*Aplica un margen en la parte inferior.*/
+    margin-right: 0px;
+    /*Aplica un margen en el lado derecho*/
+    }
 #division1,
 #division2 {
     margin: 10px;
@@ -158,65 +187,6 @@ body {
     opacity: 0.81;
     text-align: justify;
 }
-
-/* Estilo para el footer */
-footer {
-    clear: both;
-    /*Limpieza Y Genera que las alturas se pongan en cero*/
-    background-image: url(Imagen/coffe.jpg);
-    margin: auto;
-    border: 0;
-    padding: 0;
-    opacity: 0.8;
-}
-
-/* Estilo para el footer y h3 con clase .p3 dentro de footer */
-.p3 {
-    color: rgb(2, 2, 2);
-    font-size: 30px;
-    opacity: 1;
-}
-.iconos
-{
-    display: inline-block;
-}
-.wp {
-    float: left;
-    /* Hace que el enlace flote a la izquierda */
-    margin: 10px;
-    padding: 10px 20px;
-    /* Añade relleno para el enlace */
-    background-image: url('Imagen/whatsapp.png');
-    /* Ruta de la imagen que deseas usar */
-    background-size: 50%;
-    /* Ajusta el tamaño de la imagen para cubrir el enlace */
-    background-size: cover;
-    /* Evita que la imagen se repita */
-    color: transparent;
-    /* Hace que el texto del enlace sea transparente */
-    text-align: center;
-    /* Centra el contenido del enlace */
-    text-decoration: none;
-    /* Elimina el subrayado predeterminado del enlace */
-    font-size: 16px;
-    /* Tamaño de fuente para el texto del enlace */
-    font-weight: bold;
-    /* Establece el peso de la fuente para el texto del enlace */
-}
-
-.lk {
-    display: inline-block;
-    /* Hace que el enlace se comporte como un bloque en línea */
-    margin: 0px;
-    padding: 0px;
-    /* Añade relleno para el enlace */
-    background-image: url('Imagen/LinkedIn.png');
-    /* Ruta de la imagen que deseas usar */
-    background-size: cover;
-    /* Ajusta el tamaño de la imagen para cubrir el enlace */
-    
-}
-
 .Image
 {
     display: flex;
@@ -238,34 +208,108 @@ footer {
     image-rendering: optimizeQuality;
       
 }
-
-
-.Name {
-    display:inline-block;
+/* Estilo para el footer */
+footer {
     clear: both;
-    font-size: 40px; 
-    font-family: 'STNizhegorodsky';
-    }
-.Eslog{
-    top:0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /*Limpieza Y Genera que las alturas se pongan en cero*/
+    background-color: antiquewhite;
+    margin: auto;
+    border: 0;
     padding: 0px;
-    padding-bottom: 5px;
+    opacity: 0.8;
 }
-.Eslogan{
-    top: 0;
-    position: initial;
-    clear: both;
-    font-size: 15px; 
-    font-family: 'BeatrixAntiquia';
-    margin-left: 140px;
-    /*Aplica un margen en el lado izquierdo*/
+
+/* Estilo para el footer y h3 con clase .p3 dentro de footer */
+#p3 {
+    color: rgb(2, 2, 2);
+    font-size: 30px;
+    opacity: 1;
+}
+/*Rdes Sociales*/
+.Ubi/*Ubicacion De Los Icono*/
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+}
+  .wp {
+    
+    background-position: center;   
+    background-image: url(Imagen/whatsapp.png);
+    /*background-image: url(Imagen/Coffe2.jpeg);*/
+     background-size: cover;
+    /* Cambio Tamaño Imagen */
+    image-rendering:optimizeQuality;
+    opacity: 1;
     margin-top: 0px;
     /*Aplica un margen en la parte superior.*/
-    margin-bottom: 2px;
+    margin-bottom: 0px;
     /*Aplica un margen en la parte inferior.*/
-    margin-right: 0px;
+    margin-right: 5px;
     /*Aplica un margen en el lado derecho*/
-    }
+    margin-left: 0px;
+    /*Aplica un margen en el lado izquierdo*/
+    padding: 10px;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    image-rendering: optimizeQuality;
+    
+  }
+.lk {
+    background-position: center;
+    background-image: url(Imagen/LinkedIn.png);
+    background-size:cover;
+    image-rendering: optimizeQuality;
+    opacity: 1;
+    margin-top: 0px;
+    /*Aplica un margen en la parte superior.*/
+    margin-bottom: 0px;
+    /*Aplica un margen en la parte inferior.*/
+    margin-right: 5px;
+    /*Aplica un margen en el lado derecho*/
+    margin-left: 0px;
+    /*Aplica un margen en el lado izquierdo*/
+    padding: 10px;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    image-rendering: optimizeQuality;
+    
+}
+.inst {
+    background-position: center;
+    background-image: url(Imagen/instagram.png);
+    background-size:cover;
+    image-rendering: optimizeQuality;
+    opacity: 1;
+    margin-top: 0px;
+    /*Aplica un margen en la parte superior.*/
+    margin-bottom: 0px;
+    /*Aplica un margen en la parte inferior.*/
+    margin-right: 5px;
+    /*Aplica un margen en el lado derecho*/
+    margin-left: 0px;
+    /*Aplica un margen en el lado izquierdo*/
+    padding: 10px;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    image-rendering: optimizeQuality;
+    
+}
+.Fc {
+    background-position: center;
+    background-image: url(Imagen/facebook.png);
+    background-size:cover;
+    image-rendering: optimizeQuality;
+    opacity: 1;
+    margin-top: 0px;
+    /*Aplica un margen en la parte superior.*/
+    margin-bottom: 0px;
+    /*Aplica un margen en la parte inferior.*/
+    margin-right: 5px;
+    /*Aplica un margen en el lado derecho*/
+    margin-left: 0px;
+    /*Aplica un margen en el lado izquierdo*/
+    padding: 10px;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    image-rendering: optimizeQuality;
+    
+}
+/*--------*/
+
