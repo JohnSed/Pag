@@ -311,5 +311,23 @@ footer {
     image-rendering: optimizeQuality;
     
 }
-
+.Tw {
+    background-position: center;
+    background-image: url(Imagen/Twiter.png);
+    background-size:cover;
+    image-rendering: optimizeQuality;
+    opacity: 1;
+    margin-top: 0px;
+    /*Aplica un margen en la parte superior.*/
+    margin-bottom: 0px;
+    /*Aplica un margen en la parte inferior.*/
+    margin-right: 5px;
+    /*Aplica un margen en el lado derecho*/
+    margin-left: 0px;
+    /*Aplica un margen en el lado izquierdo*/
+    padding: 10px;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    image-rendering: optimizeQuality;
+    
+}
 
